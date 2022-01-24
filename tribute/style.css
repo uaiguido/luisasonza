@@ -1,0 +1,52 @@
+@import url(https://fonts.googleapis.com/css?family=PT+Sans:400,400italic,700,700italic);
+
+html {
+  font-size: 15px;
+}
+body {
+  background-color: #c3c4c7;
+  text-align: center;
+  line-height: 2;
+  font-family: "PT Sans", monospace;
+  margin: 0;
+}
+.titulo {
+  background-color: hsl(217, 3%, 65%);
+  box-shadow: 0px 5px hsl(217, 3%, 50%);
+  font-size: 25px;
+  color: #0b2e10;
+}
+#img-caption {
+  font-size: 12px;
+  margin: 15px;
+}
+#image {
+  box-shadow: 5px 5px black;
+}
+ul {
+  max-width: 700px;
+  text-align: left;
+  margin: 0px auto;
+  line-height: 2.5;
+}
+#headline {
+  margin: 75px;
+  font-size: 20px;
+}
+img {
+  max-width: 100%;
+  display: block;
+  margin: auto;
+  height: auto;
+}
+#astroworld-img {
+  max-width: 600px;
+  margin: 25px;
+  display: auto;
+}
+#fim {
+  font-size: 20px;
+}
+#tribute-link {
+  color: #0b2e10;
+}

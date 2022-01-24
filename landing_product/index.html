@@ -1,0 +1,100 @@
+<link rel="stylesheet" type="text/css" href="style.css" media="screen" />
+<head>
+  <script src="https://kit.fontawesome.com/8ab4249c23.js" crossorigin="anonymous"></script>
+</head>
+<div id="page-wrapper">
+    <header id="header">
+        <div class="logo">
+            <img
+                id="header-img"
+                src="https://cdn.discordapp.com/attachments/677655186604294165/930109987513061396/TravisFlint.png"
+                alt="Travis Flint logo."
+            />
+        </div>
+        <nav id="nav-bar">
+            <ul>
+                <li>
+                    <a class="nav-link" href="#description">Página Inicial</a>
+                </li>
+                <li>
+                    <a class="nav-link" href="#promotion-video">FAQ</a>
+                </li>
+                <li>
+                    <a class="nav-link" href="contato">Contato</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <section class="apresentation">
+        <div class="container">
+            <h1 class="main-text">O melhor freelancer da cidade.</h1>
+            <h2 class="sub-text">Bonito, cheiroso e anda reto. Topa tudo por dinheiro.</h2>
+            <button 
+                style="vertical-align:middle"
+                class= "buy-button"
+                type= "button"
+                onclick= "document.getElementById('form').scrollIntoView();">
+                <p>Contrate já.</p>
+            </button>
+        </div>
+    </section>
+    <section id="promotion-video">
+        <iframe
+            id="video"
+            height="315" 
+            src="https://www.youtube-nocookie.com/embed/X8HSAkQBp50?rel=0&amp;controls=0&amp;showinfo=0"
+            frameborder="0"
+            allowfullscreen
+        >    
+        </iframe>
+    </section>
+    <section id="description" class="description">
+        <div>
+            <i class="fas fa-grin-tears" style="font-size:60px;color: rgb(180, 8, 199)"></i>
+            <h3 class="main-text">Engraçado</h3>
+                <p class="sub-text">Piadas e trocadilhos são o seu forte, utiliza disso para fazer amizades e desenrolar situações.</p>
+            
+            <i class="fas fa-hands-helping" style="font-size:60px;color: rgb(180, 8, 199)"></i>
+            <h3 class="main-text">Prestativo</h3>
+              <p class="sub-text">Sabe como ninguém resolver problemas, tem a solução para quase tudo.</p>
+            
+            <i class="fas fa-money-bill-wave-alt" style="font-size:60px;color: rgb(180, 8, 199)"></i>
+            <h3 class="main-text">Ambicioso</h3>
+                <p class="sub-text">O desafio e a conquista são suas principais motivações, sempre trabalha para progredir.</p>
+            
+        </div>
+    </section>
+    <section id="contato" class="e-mail">
+        <div>
+            <form id="form" action="https://www.freecodecamp.com/email-submit">
+                <input 
+                    type="email" 
+                    name="email"
+                    id="email"
+                    placeholder="Insira seu e-mail aqui."
+                    required
+                />
+                <input 
+                    id="submit" 
+                    type="submit" 
+                    value="Contrate!"
+                    class="btn"
+                />
+        </div>
+    </section>
+    <footer>
+      <ul>
+            <li>
+                <a href="#">Privacidade</a>
+            </li>
+            <li>
+                <a href="#">Termos</a>
+            </li>
+            <li>
+                <a href="#">Contato</a>
+            </li>
+        </ul>
+        <span id="copy">©2022, @uaiguido.</span>
+    </footer>
+</div>
+
